@@ -40,7 +40,9 @@
     </style>
   </head>
   <body>
-    <a id="logo"><img style="pointer-events: none" src="/images/logo.png" /></a>
+    <a id="logo"
+      ><img style="pointer-events: none" src="/images/res/logo.png"
+    /></a>
     <script src="https://code.playcanvas.com/playcanvas-1.22.0.js"></script>
     <script>
       const STREAM_LINKS = [
@@ -108,7 +110,7 @@
 
       // the texture for each face of cube
       const cubeface = new pc.Asset("cubeface-texture", "texture", {
-        url: "/images/cement.png",
+        url: "/images/res/cement.png",
       });
 
       app.assets.add(cubeface);
